@@ -2,7 +2,7 @@
 .content {
   background-color: #f8f8f8;
   color: #333;
-  font-family: Lato, sans-serif;
+  font-family: lato, sans-serif;
 }
 
 .header {
@@ -67,13 +67,13 @@ button{
   color: #888;
   font-size: 15px;
   width: 60px;
-  font-family: Lato, sans-serif;
+  font-family: lato, sans-serif;
   cursor: pointer;
 }
 .main__new-task-button:hover,
 .list-item__edit-button:hover, 
 .list-item__delete-button:hover {
-  color: #3a3A3a;
+  color: #3a3a3a;
 }
 
 /* Heading */
@@ -95,9 +95,9 @@ button{
   height: 21px;
   padding: 0 9px;
   border: 1px solid #dDd;
-  background: #FFF;
+  background: #fff;
   border-radius: 6px;
-  font-family: Lato, sans-serif;
+  font-family: lato, sans-serif;
   color: #888;
 }
 
@@ -135,10 +135,10 @@ button{
 }
 
 .list-item__task-label {
-    padding-left: 10px;
-    box-sizing: border-box;
-    font-size: 18px;
-    width: 226px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+  width: 226px;
 }
 
 /* li > input[type="text"] {
@@ -146,31 +146,31 @@ button{
 } */
 
 .list-item__delete-img {
-    height: 2em;
-    transform: rotateZ(45deg);
-    transition: transform 200ms ease-in;
+  height: 2em;
+  transform: rotateZ(45deg);
+  transition: transform 200ms ease-in;
 }
 
 .list-item__delete-img:hover {
-    transform: rotateZ(0);
+  transform: rotateZ(0);
 }
 
 /* Completed */
 .list-item__task-label_completed {
-    text-decoration: line-through;
-    color: #888;
+  text-decoration: line-through;
+  color: #888;
 }
 
 /* Edit Task */
 .list-item__task-input {
-    display: none
+ display: none
 }
 
 .list-item__task-input_edit {
-    display: inline-block;
-    width: 224px
+  display: inline-block;
+  width: 224px
 }
 
 .list-item__task-label_edit {
-    display: none;
+  display: none;
 }
